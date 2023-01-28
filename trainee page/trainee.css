@@ -1,0 +1,63 @@
+body{
+    background-image:linear-gradient(90deg,rgba(37,23,53,0.8),rgba(57, 47, 68, 0.8)) ,url("https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    }
+    /*this is for the navigation bar*/
+.nav-1{
+    display:inline;
+    position: relative;
+ }
+  ul{
+    background-color:grey;
+    padding: 0px 0px 0px 50px;
+    margin:0px 300px 0px 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+  }
+  .a-1{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+ }
+/*header css*/
+.header-1{
+background-color:rgb(163, 190, 204);
+
+font-size: 20px;
+border-radius:5px;
+margin:0px 30px 0px 47px;
+}
+/*First part image*/
+.image-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.image-2{
+width:400px;
+}
+/*form css*/
+.orderForm{
+  display:flex;
+  flex-direction:column;
+    width:500px;
+  }
+  .input{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-right:400px;
+  }
+  button{
+    margin:0px 200px 0px 200px;
+  }
+  /*footer css*/
+  .ending{
+    background-color:white ;
+    text-align: center;
+    margin:0px 50px 0px 50px;
+  }
